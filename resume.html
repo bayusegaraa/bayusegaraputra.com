@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bayu Segara Putra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="sectionbox" id="sec">
+<header>
+    <a href="index.html" class="logo"> Bayu </a>
+
+
+<div class="navdesktop">
+    <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+
+<span onclick="openNav()" class="menu">&#9776;</span>
+
+<div id="navigate" class="overlay">
+
+    <a href="javascript:void(0)" class="closebtn" style="padding-top: 20px" onclick=closeNav()>&times;</a>
+
+    <div class="overlay-content">
+    <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    </div>
+</div>
+
+</header>
+
+
+
+<div class="row resume ">
+
+    <h2 class="title">Work Experience</h2>
+
+    <div class="column">
+        <div class="card">
+            <img src="images/weeloy.png" class="card-image">
+            <br> 
+        <h3 class="job-title"> 
+            Customer Success Manager
+        </h3>
+        <p class="job-company">
+        @ Weeloy 
+        </p>
+        <p class="job-date">
+            Aug 2019 - Present
+        </p>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="card">
+            <img src="images/moka.png" class="card-image">
+            <br> 
+        <h3 class="job-title"> 
+            Enterprise Technical Support Specialist 
+        </h3>
+        <p class="job-company">
+        @ MokaPOS
+        </p>
+        <p class="job-date">
+            Dec 2017 - Aug 2019
+        </p>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="card">
+            <img src="images/telkomsel.png" class="card-image">
+            <br> 
+        <h3 class="job-title"> 
+            Network Operation Center Officer
+        </h3>
+        <p class="job-company">
+        @ Telkomsel
+        </p>
+        <p class="job-date">
+            Feb 2016 - Dec 2017
+        </p>
+        </div>
+    </div>
+    
+  </div>
+  
+
+
+</section>
+
+<section class="skillsec" id="sec">
+    <div class="row skills ">
+
+        <h2 class="title">Skills</h2>
+    
+        <div class="skillcolumn">
+            <div class="card">
+            <h3 class="job-company skiltext"> 
+                Software
+            </h3>
+            <br>
+            <p class="job-date skiltext">
+                Microsoft Office, Adobe Premiere, Adobe Photoshop, CorelDraw, Sony Vegas 2012, Wordpress, Adobe XD, Figma, Flutter.
+            </p>
+
+            </div>
+        </div>
+
+        <div class="skillcolumn">
+            <div class="card">
+            <h3 class="job-company skiltext"> 
+                Network Engineer
+            </h3>
+            <br>
+            <p class="job-date skiltext">
+                Mikrotik, Cisco, Winbox, Putty, CWNCM, Huawei U2000, NERA Netmaster & NMS.
+            </p>
+
+            </div>
+        </div>
+    
+        <div class="skillcolumn">
+            <div class="card">
+            <h3 class="job-company skiltext"> 
+                Electrical Engineer
+            </h3>
+            <br>
+            <p class="job-date skiltext">
+                KiCad, Arduino, AVR Studio, WinAVR, Altium.
+            </p>
+
+            </div>
+        </div>
+
+        <div class="skillcolumn">
+            <div class="card">
+            <h3 class="job-company skiltext"> 
+                Programing Language
+            </h3>
+            <br>
+            <p class="job-date skiltext">
+                CSS, HTML, PHP, C, Dart, Kotlin.
+            </p>
+
+            </div>
+        </div>
+    
+        
+      </div>
+</section>
+
+
+
+
+
+
+<script>
+function openNav() {
+  document.getElementById("navigate").style.width = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+  document.getElementById("navigate").style.width = "0%";
+}
+
+</script>
+    
+</body>
+</html>

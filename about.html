@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bayu Segara Putra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="aboutsec" id="sec">
+<header>
+    <a href="index.html" class="logo"> Bayu </a>
+
+
+<div class="navdesktop">
+    <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+
+<span onclick="openNav()" class="menu">&#9776;</span>
+
+<div id="navigate" class="overlay">
+
+    <a href="javascript:void(0)" class="closebtn" style="padding-top: 20px" onclick=closeNav()>&times;</a>
+
+    <div class="overlay-content">
+    <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    </div>
+</div>
+
+</header>
+
+
+<div class="row">
+    <h2 class="title">About Me</h2>
+<div class="card card-about">
+     
+    <img src="images/bayu.png" class="bayu">
+    <br>
+    <p class="job-company"> Hola amigos !
+        Thank you for visiting my website. <br>
+        <br> An ordinary guy from Indonesia who likes technology and food. Always explore new things and learn manythings. 
+        Recently doing Customer Success in Weeloy Pte Ltd and studying ui design, html, css and js code. 
+        Dream to be technology or food entrepreneur someday. Receiving any order for simple web development, just reach me.
+        <br>
+        <br>
+        Please visit my <a href="contact.html" class="mysocmed"> social media </a> to know more about me.
+     </p>
+    
+</div>
+</div>
+
+
+</section>
+
+
+
+
+
+
+<script>
+function openNav() {
+  document.getElementById("navigate").style.width = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+  document.getElementById("navigate").style.width = "0%";
+}
+
+</script>
+    
+</body>
+</html>
